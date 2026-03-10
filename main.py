@@ -15,3 +15,8 @@ manager.display_products()
 
 # Prikaz ukupne vrednosti inventara
 print("Ukupna vrednost inventara:", manager.total_value(), "RSD")
+
+# Uklanjanje proizvoda
+manager.remove_product("Telefon")
+print("\nNakon uklanjanja proizvoda:")
+manager.display_products()

@@ -5,9 +5,9 @@ from product_manager import ProductManager
 manager = ProductManager()
 
 # Dodavanje nekoliko proizvoda
-manager.add_product(Product("Laptop", 50000, 2))
-manager.add_product(Product("Telefon", 20000, 3))
-manager.add_product(Product("Slusalice", 3000, 10))
+manager.add_product(Product("Gaming Laptop", 55555, 5))
+manager.add_product(Product("Telefon Samsung", 25000, 33))
+manager.add_product(Product("Slusalice", 2000, 10))
 
 # Prikaz svih proizvoda
 print("Lista proizvoda:")
